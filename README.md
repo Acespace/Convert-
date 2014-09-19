@@ -3,4 +3,8 @@ Convert-
 
 A simple conversion table
 
-Watch style
+There are three parts of this project.
+
+Model(s), Control, and Veiw.
+
+
