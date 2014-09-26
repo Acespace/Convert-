@@ -19,7 +19,7 @@ DESIGN:
 function template:
 
 
-def meter(num,endU):
+def meter(num,endU):                       num  is the number to convert and endU is the ending unit
 		
 	if endU == "centimeters" or "centi" or "Centimeters" or "CENTIMETERS":
 		
