@@ -16,28 +16,26 @@ My goal is to make a UI using Tkinter; however for now, the Veiw will just run f
 
 DESIGN:
 
-Make sure your functions follow this template:
+function template:
 
 
-
-
-def meter(num,ans):   
+def meter(num,endU):
 		
-	if ans == "centimeters" or "centi" or "Centimeters" or "CENTIMETERS":
+	if endU == "centimeters" or "centi" or "Centimeters" or "CENTIMETERS":
 		
 		num1 = num
 		num *= 100
 
-		print num1, "meter equals", num, "centimeters"
+		return num
 
-	elif ans == 2:
+	elif endU == "feet" or "Feet" or "FEET":
 		
 		num1 = num
 		num *= 3.28084
 
 		print num1, "meter equals", num, " feet"
 
-	elif ans == 3:
+	elif endU == "inches" or " inche":
 		num1 = num
 		num *= 39.3701
 	
@@ -46,5 +44,6 @@ def meter(num,ans):
 
 	else:
 		pass
+
 
 
