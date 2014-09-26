@@ -1,6 +1,6 @@
 
 
-from oneFunc import *                                         # import functions
+from function_library import *                                         # import functions
 
 units = ['centimeter','meter','inches','Inches','feet']     #the names of the functions that will preform conversion.
 
