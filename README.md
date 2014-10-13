@@ -19,31 +19,30 @@ DESIGN:
 function template:
 
 
-def meter(num,endU):                       num  is the number to convert and endU is the ending unit
-		
-	if endU == "centimeters" or "centi" or "Centimeters" or "CENTIMETERS":
-		
-		num1 = num
-		num *= 100
-
-		return num
-
-	elif endU == "feet" or "Feet" or "FEET":
-		
-		num1 = num
-		num *= 3.28084
-
-		print num1, "meter equals", num, " feet"
-
-	elif endU == "inches" or " inche":
-		num1 = num
-		num *= 39.3701
+def feet(num, endU):
 	
-		print num1, " meter equals", num, "inches"
+	if endU == "inches" or "INCH" or "inch":
+		
+		num1 = num
+		num *= 12
+
+		return num 
+
+	elif endU == "centimeters" or "CENTIMETERS":
+		
+		num1 = num
+		num /= 0.0328084
+
+		return num 
+
+	elif endU == "Meters" or "meters" or "meter":
+		num1 = num
+		num /= 3.28084
+	
+		return num
 
 
 	else:
 		pass
-
 
 
