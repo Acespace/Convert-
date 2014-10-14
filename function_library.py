@@ -114,23 +114,3 @@ def meter(num,endU):
 		pass
 
 
-
-def hour(num, endU):
-	
-	if endU == "minute" or "Minutes" or "MINUTES":
-		
-		num1 = num
-		num *= 60
-
-		return num 
-
-	elif endU == "Seconds" or "seconds":
-		
-		num1 = num
-		num *= 3600
-
-		return num 
-
-
-	else:
-		pass
