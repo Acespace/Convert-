@@ -2,7 +2,7 @@
 
 from function_library import *                                         # import functions
 
-units = ['centimeter','meter','inches','Inches','feet']     #the names of the functions that will preform conversion.
+units = ['centimeter','meter','inches','Inches','feet','hour']     #the names of the functions that will preform conversion.
 
 flag = True
 while flag == True:                                           # Prompts for starting unit
